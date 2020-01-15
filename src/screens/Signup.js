@@ -21,9 +21,6 @@ export default class SignupPage extends Component {
 
                     </View>
 
-
-
-
                     <View style={styles.thirdView}>
 
                         <View style={{ flexDirection: "row", alignItems: 'center', marginVertical:metrics.smallMargin }}>
@@ -63,7 +60,7 @@ export default class SignupPage extends Component {
 
                     <View style={styles.fourthView}>
 
-                        <Text style={{color: "silver", fontSize: fonts.size.font_14, textAlign:"center" }}><Text>By signing up you accept the <Text style={{ color: "#457ef8", fontWeight: "bold", fontSize: fonts.size.font_14}} onPress={() => this.props.navigation.navigate('Carousel')}>Terms of Service</Text> and <Text style={{color: "#457ef8", fontWeight: "bold", fontSize: fonts.size.font_14}} onPress={() => this.props.navigation.navigate('Policy')}>Privacy Policy </Text></Text>
+                        <Text style={{color: "silver", fontSize: fonts.size.font_14, textAlign:"center" }}><Text>By signing up you accept the <Text style={{ color: "#457ef8", fontWeight: "bold", fontSize: fonts.size.font_14}} onPress={() => this.props.navigation.navigate('Profile')}>Terms of Service</Text> and <Text style={{color: "#457ef8", fontWeight: "bold", fontSize: fonts.size.font_14}} onPress={() => this.props.navigation.navigate('Policy')}>Privacy Policy </Text></Text>
                         </Text>
                     </View>
 

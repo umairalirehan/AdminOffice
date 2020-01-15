@@ -7,6 +7,8 @@ import SignupPage from "./src/screens/Signup";
 import SplashPage from "./src/screens/Splash";
 import PolicyPage from "./src/screens/Policy";
 import CarouselPage from "./src/screens/Carousels";
+import ProfilePage from "./src/screens/Profile";
+import PaymentPlanPage from "./src/screens/PaymentPlan";
 
 
 
@@ -18,11 +20,13 @@ const MainNavigator = createStackNavigator({
     SignUp: { screen: SignupPage },
     Policy: { screen: PolicyPage },
     Carousel: { screen: CarouselPage },
+    Profile: { screen: ProfilePage },
+    Payment: { screen: PaymentPlanPage },
 
 
 },
     {
-        initialRouteName: "Splash",
+        initialRouteName: "Payment",
         headerMode: "none",
     }
 );
